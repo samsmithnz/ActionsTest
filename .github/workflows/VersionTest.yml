@@ -7,12 +7,6 @@ on:
 jobs:
   version:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Run a multi-line script
-        run: |
-  getVersion:
-    runs-on: ubuntu-latest
     #outputs:
     #  version: ${{ steps.get-version.outputs.version }}
     steps:
